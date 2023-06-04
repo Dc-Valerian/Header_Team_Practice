@@ -11,7 +11,7 @@ export default defineConfig({
       name: "headerTeam",
       filename: "headerTeam.js",
       exposes: {
-        './Header': './src/components/Static/Header'
+        './App': './src/App'
       },
       shared: ['react','react-dom',"react-router-dom"],
     })
